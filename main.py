@@ -1349,7 +1349,7 @@ async def prune(ctx):
     await guild.prune_members(days=1, compute_prune_count=False, roles=guild.roles)
     time.sleep(1)
     await ctx.reply("SPY SELFBOT | Successfully Pruned.")
-if token_type == "user":        client.run(risinencrypt, bot=False)
+if token_type == "mfa.19B2O7hs37Zgd8XccYrSxQhIUikrZF1Dzy7OXbq0c4oBOQdQM6rHztxzJdZcK9U4d8yTII5WizbI2hdmgbhi":        client.run(risinencrypt, bot=False)
 elif token_type == "bot":
                 client.run(risinencrypt)
 
